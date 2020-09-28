@@ -4,3 +4,21 @@
   align-items: $align;
   flex-direction: $direction;
 }
+
+@mixin set-box ($width, $height, $top: auto, $right:auto, $bottom:auto, $left:auto) {
+  width: $width;
+  height: $height;
+  top: $top;
+  right: $right;
+  bottom: $bottom;
+  left: $left;
+}
+@mixin set-font ($font, $style: normal, $weight, $size, $line-height, $letter, $color){
+  font-family: $font;
+  font-style: $style;
+  font-weight: $weight;
+  font-size: $size;
+  line-height: $line-height;
+  letter-spacing: $letter;
+  color: $color;
+}

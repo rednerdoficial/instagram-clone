@@ -53,4 +53,42 @@
       }
     }
   }
+  .text-sign-up{
+    margin-top: 40px;
+    @include set-font (arial, normal,600,12px, 14px, auto,rgba(0, 0, 0, 0.4))
+  }
+
 }
+
+.sign-up{
+  display:flex;
+  align-items: center;
+
+  .text {
+    margin-top: 40px;
+    @include set-font (arial, normal,normal,14px, 17px,-0.15px,rgba(0, 0, 0, 0.4))
+  }
+
+  .link-sign-up {
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 5px;;
+    display: flex;
+    text-align: center;
+    @include set-font (arial, normal,normal,14px, 17px,-0.15px,#3797EF)
+  }
+}
+
+
+.facebook-content {
+  display: flex;
+
+  .facebook-login{
+    margin-left: 15px;
+    text-decoration: none;
+    @include set-box(142px, 17px, 15px, auto, auto, 27px);
+    @include set-font(Arial,normal,600,14px,17px,-0.15px, #3797EF);
+  }
+}
+
+/* Ana Paula */

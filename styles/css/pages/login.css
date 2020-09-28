@@ -67,5 +67,67 @@ body {
 .login-container .form-container .btn-submit:focus {
   outline: none;
 }
+.login-container .text-sign-up {
+  margin-top: 40px;
+  font-family: arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: auto;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.sign-up {
+  display: flex;
+  align-items: center;
+}
+.sign-up .text {
+  margin-top: 40px;
+  font-family: arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.15px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.sign-up .link-sign-up {
+  text-decoration: none;
+  margin-top: 40px;
+  margin-left: 5px;
+  display: flex;
+  text-align: center;
+  font-family: arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.15px;
+  color: #3797EF;
+}
+
+.facebook-content {
+  display: flex;
+}
+.facebook-content .facebook-login {
+  margin-left: 15px;
+  text-decoration: none;
+  width: 142px;
+  height: 17px;
+  top: 15px;
+  right: auto;
+  bottom: auto;
+  left: 27px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: -0.15px;
+  color: #3797EF;
+}
+
+/* Ana Paula */
 
 /*# sourceMappingURL=login.css.map */
