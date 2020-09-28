@@ -9,13 +9,6 @@ html {
   width: 100%;
 }
 
-.tab-bar .action-icon, header .action-icon {
-  width: 24px;
-  height: auto;
-  cursor: pointer;
-  margin: 0 15px;
-}
-
 * {
   font-family: Arial;
 }

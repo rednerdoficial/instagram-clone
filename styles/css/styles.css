@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  font-family: Arial;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+/*# sourceMappingURL=styles.css.map */
