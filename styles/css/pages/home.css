@@ -9,6 +9,7 @@ html {
   width: 100%;
 }
 
+<<<<<<< HEAD
 header .action-icon {
   width: 24px;
   height: auto;
@@ -17,13 +18,45 @@ header .action-icon {
 }
 
 * {
+=======
+*,
+p {
+>>>>>>> upstream/master
   font-family: Arial;
 }
 
 body {
+  max-width: 375px;
+  margin: auto;
   background-color: #fafafa;
 }
 
+<<<<<<< HEAD
+=======
+header .action-icon, .tab-bar .action-icon {
+  width: 24px;
+  height: auto;
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.tab-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f2f2f2;
+  position: sticky;
+  bottom: 0;
+  padding: 10px 0;
+  border-top: 1px solid #e2e2e2;
+}
+.tab-bar .action-icon {
+  width: 22px;
+}
+
+>>>>>>> upstream/master
 header {
   display: flex;
   justify-content: space-between;

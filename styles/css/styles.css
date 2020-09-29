@@ -1,20 +1,18 @@
-* {
-  margin: 0;
-  padding: 0;
-}
+/* Error: expected "{".
+ *    ,
+ * 33 | <<<<<<< HEAD
+ *    |             ^
+ *    '
+ *   scss\mixins.scss 33:13  @import
+ *   scss\styles.scss 3:9    root stylesheet */
 
-body,
-html {
-  height: 100%;
-  width: 100%;
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: expected "{".\a    \2577 \a 33 \2502  <<<<<<< HEAD\d\a    \2502              ^\a    \2575 \a   scss\\mixins.scss 33:13  @import\a   scss\\styles.scss 3:9    root stylesheet';
 }
-
-* {
-  font-family: Arial;
-}
-
-body {
-  background-color: #fafafa;
-}
-
-/*# sourceMappingURL=styles.css.map */
