@@ -102,4 +102,20 @@ header {
     color: rgba(60, 60, 67, 0.6);
     align-self: center;
   }
-  
+
+  #footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  main {
+    @include simple-flex(flex-start, center, column);
+    margin-top: 45px;
+
+    .img-galery{
+      display: flex;
+      flex-direction: row;
+
+    }
+  }

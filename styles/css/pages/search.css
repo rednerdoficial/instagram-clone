@@ -172,4 +172,22 @@ header .tag-header .tag-box .text-box {
   align-self: center;
 }
 
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 45px;
+}
+main .img-galery {
+  display: flex;
+  flex-direction: row;
+}
+
 /*# sourceMappingURL=search.css.map */
