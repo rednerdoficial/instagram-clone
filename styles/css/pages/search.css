@@ -50,4 +50,60 @@ body {
   width: 22px;
 }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px 0 6px;
+  background-color: #f2f2f2;
+  position: fixed;
+  top: 0;
+  border-bottom: 1px solid #e2e2e2;
+  z-index: 1;
+}
+header .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(118, 118, 128, 0.12);
+  border: solid 1px;
+  border-radius: 10px;
+  width: 85%;
+  height: 30px;
+  top: auto;
+  right: auto;
+  bottom: auto;
+  left: auto;
+  margin-left: 8px;
+  border: none;
+}
+header .search .img-search {
+  width: 12.5px;
+  height: 12.5px;
+  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+header .search .img-search-2 {
+  width: 18px;
+  height: 18px;
+}
+
+#txtBusca {
+  float: left;
+  background-color: transparent;
+  padding-left: 5px;
+  font-style: normal;
+  font-size: 16px;
+  border: none;
+  height: 30px;
+  width: 272px;
+  line-height: 22px;
+  letter-spacing: -0.3px;
+  color: rgba(60, 60, 67, 0.6);
+  align-self: center;
+}
+
 /*# sourceMappingURL=search.css.map */

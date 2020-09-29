@@ -2,7 +2,7 @@ Projeto Desenvolvido no Curso de Desenvolvimento WEB do Estartando Devs.
 
 Réplica do Instagram
 
------** CREÉDITOS **-----
+-----** CRÉDITOS **-----
 
 Ana Paula Cirilo (desenvolvedora do projeto e aluna do Estartando Devs): https://github.com/rednerdoficial
 Breno Nunes (instrutor do Estartando Devs e idealizador do projeto):  https://github.com/Brenont
