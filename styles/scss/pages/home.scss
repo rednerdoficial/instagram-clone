@@ -5,11 +5,11 @@ header {
   width: 100%;
   padding: 10px 0 6px;
   background-color: $background-secondary;
-  position: sticky;
+  position: fixed;
   top: 0;
   border-bottom: 1px solid #e2e2e2;
   z-index: 1;
-
+  
   .logo-img {
     width: 105px;
     height: auto;
@@ -22,6 +22,7 @@ header {
 
 main {
   @include simple-flex(flex-start, center, column);
+  margin-top: 45px;
 
   .stories-container {
     display: flex;

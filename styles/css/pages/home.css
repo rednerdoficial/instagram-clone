@@ -58,7 +58,7 @@ header {
   width: 100%;
   padding: 10px 0 6px;
   background-color: #f2f2f2;
-  position: sticky;
+  position: fixed;
   top: 0;
   border-bottom: 1px solid #e2e2e2;
   z-index: 1;
@@ -72,6 +72,7 @@ main {
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
+  margin-top: 45px;
 }
 main .stories-container {
   display: flex;
