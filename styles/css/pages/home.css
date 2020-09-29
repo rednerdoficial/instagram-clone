@@ -9,19 +9,15 @@ html {
   width: 100%;
 }
 
-<<<<<<< HEAD
-header .action-icon {
+header .action-icon, .tab-bar .action-icon {
   width: 24px;
   height: auto;
   cursor: pointer;
   margin: 0 15px;
 }
 
-* {
-=======
 *,
 p {
->>>>>>> upstream/master
   font-family: Arial;
 }
 
@@ -31,8 +27,6 @@ body {
   background-color: #fafafa;
 }
 
-<<<<<<< HEAD
-=======
 header .action-icon, .tab-bar .action-icon {
   width: 24px;
   height: auto;
@@ -56,7 +50,6 @@ header .action-icon, .tab-bar .action-icon {
   width: 22px;
 }
 
->>>>>>> upstream/master
 header {
   display: flex;
   justify-content: space-between;

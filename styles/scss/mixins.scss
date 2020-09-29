@@ -5,7 +5,6 @@
   flex-direction: $direction;
 }
 
-<<<<<<< HEAD
 @mixin set-box ($width, $height, $top: auto, $right:auto, $bottom:auto, $left:auto) {
   width: $width;
   height: $height;
@@ -24,14 +23,8 @@
   color: $color;
 }
 
-=======
->>>>>>> upstream/master
 @mixin box-round($size) {
   width: $size;
   height: $size;
   border-radius: 50%;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> upstream/master
