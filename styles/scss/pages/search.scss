@@ -1,7 +1,7 @@
 @import "../styles.scss";
 
 header {
-    @include simple-flex(space-between, center, row);
+    @include simple-flex(space-between, auto, column);
     width: 100%;
     padding: 10px 0 6px;
     background-color: $background-secondary;
@@ -12,13 +12,12 @@ header {
 
     .search{
         display: flex;
+        flex-direction: row;
         justify-content: space-between;
-        align-items: center;
         background-color:rgba(118, 118, 128, 0.12);
         border:solid 1px;
         border-radius:10px;
-        @include set-box (85%,30px);
-        margin-left: 8px;
+        @include set-box (82.5%,30px);
         border: none;
 
         .img-search {
@@ -35,8 +34,60 @@ header {
         }
 
       }
-}
+    .tag-header {
+        @include simple-flex (space-between, center,row);
+        @include margin (5px, 0, 0,0);
+        overflow-x: auto;
 
+        &::-webkit-scrollbar {
+            height: 6px;
+            display: none;
+          }
+      
+          /* Track */
+          &::-webkit-scrollbar-track {
+            background-color: $background-secondary;
+          }
+      
+          /* Handle */
+          &::-webkit-scrollbar-thumb {
+            background: #c7c7c7;
+            border-radius: 5px;
+          }
+
+        a {
+            text-decoration: none;
+        }
+
+        .tag-box{
+            @include simple-flex (space-between, center,row);
+            border: 1px solid rgba(60, 60, 67, 0.18);
+            box-sizing: border-box;
+            border-radius: 6px;
+            background: #FFFFFF;
+            @include padding (3px, 15px, 3px, 15px);
+            @include margin (0,2px,0,2px);
+
+            .tag-img{
+                width: 15px;
+                height: 15px;
+                margin-right: 5px;
+            }
+            
+            .text-box {
+                @include set-font (Arial, normal, 600, 14px, 17px, -0.2px,#262626);
+                white-space: nowrap;
+                
+
+            }
+        }
+
+
+    }
+}
+.flex-row{
+    @include simple-flex (space-evenly,center,row)
+}
   #txtBusca{
     float:left;
     background-color:transparent;
