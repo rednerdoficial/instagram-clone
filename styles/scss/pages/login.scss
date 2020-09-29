@@ -1,5 +1,9 @@
 @import "../styles.scss";
 
+body,html {
+  height: 100%;
+}
+
 .login-container {
   @include simple-flex(center, center, column);
   height: 100%;
