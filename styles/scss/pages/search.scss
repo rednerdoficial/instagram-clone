@@ -5,7 +5,7 @@ header {
     width: 100%;
     padding: 10px 0 6px;
     background-color: $background-secondary;
-    position: fixed;
+/*     position: fixed; */
     top: 0;
     border-bottom: 1px solid #e2e2e2;
     z-index: 1;
@@ -103,18 +103,28 @@ header {
     align-self: center;
   }
 
-  #footer {
-    position:absolute;
+
+main {
+  width: 100%;
+
+  .suggestions-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
-  }
 
-  main {
-    @include simple-flex(flex-start, center, column);
-    margin-top: 45px;
-
-    .img-galery{
-      display: flex;
-      flex-direction: row;
-
+    .post-img {
+      margin: 0.5px;
+      box-sizing: border-box;
+      width: calc(33.33% - 1px);
+      height: auto;
+      object-fit: cover;
     }
+    .post-img:nth-child(3n) {
+      padding-left: 0;
+    }
+
   }
+}

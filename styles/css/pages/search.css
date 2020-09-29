@@ -57,7 +57,7 @@ header {
   width: 100%;
   padding: 10px 0 6px;
   background-color: #f2f2f2;
-  position: fixed;
+  /*     position: fixed; */
   top: 0;
   border-bottom: 1px solid #e2e2e2;
   z-index: 1;
@@ -171,21 +171,26 @@ header .tag-header .tag-box .text-box {
   align-self: center;
 }
 
-#footer {
-  position: absolute;
+main {
   width: 100%;
 }
-
-main {
+main .suggestions-container {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 45px;
-}
-main .img-galery {
-  display: flex;
+  align-items: flex-start;
   flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main .suggestions-container .post-img {
+  margin: 0.5px;
+  box-sizing: border-box;
+  width: calc(33.33% - 1px);
+  height: auto;
+  object-fit: cover;
+}
+main .suggestions-container .post-img:nth-child(3n) {
+  padding-left: 0;
 }
 
 /*# sourceMappingURL=search.css.map */
