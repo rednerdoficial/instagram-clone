@@ -1,5 +1,13 @@
 Projeto Desenvolvido no Curso de Desenvolvimento WEB do Estartando Devs.
 
+! EM DESENVOLVIMENTO ! 27% !
+
+O Projeto do Instagram Clone foi proposto em aula e está em desenolvimento até o fim do curso (Dez/2020).
+
+
+
+
+
 Réplica do Instagram
 
 -----** CRÉDITOS **-----
